@@ -1,11 +1,18 @@
 body {
   margin: 0;
-  background-color: gray;
+  background-color: lightpink;
 }
 
 header {
-  position: relative;
-  padding-left: 100px;
+  background: #67A7CC;
+  display: flex;
+  top: 0;
+  height: 100px;
+  padding: 10px;
+  position: fixed;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
 }
 
 nav {
@@ -19,6 +26,7 @@ nav {
   color: black;
   list-style-type: none;
   text-align: center;
+  padding-left: 900px
 }
 
 .list {
@@ -26,4 +34,43 @@ nav {
   padding-right: 50px;
   font-weight: bold;
   font-size: 20px;
+  text-align: right;
+  float: right;
 }
+
+.img {
+  width: 500px;
+}
+
+.introductions {
+  padding-left: 40px;
+  padding-top: 80px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.iwa {
+  padding-left:50px;
+  padding-bottom: px;
+}
+
+.media {
+  text-align: center;
+  padding-top: 100px;
+}
+
+.footer {
+  background-color: aquamarine;
+  font-size: 30px;
+  
+}
+
+.list {
+  color: green;
+  text-decoration: none;
+  background-color: white;
+  padding: 4px 6px;
+  border: green 1px solid;
+  border-radius: 5px;
+}
+
